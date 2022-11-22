@@ -1,0 +1,12 @@
+C:\git\DDD.Chess\DDD.Chess.Core\bin\Debug\net6.0\DDD.Chess.Core.deps.json
+C:\git\DDD.Chess\DDD.Chess.Core\bin\Debug\net6.0\DDD.Chess.Core.dll
+C:\git\DDD.Chess\DDD.Chess.Core\bin\Debug\net6.0\DDD.Chess.Core.pdb
+C:\git\DDD.Chess\DDD.Chess.Core\obj\Debug\net6.0\DDD.Chess.Core.csproj.AssemblyReference.cache
+C:\git\DDD.Chess\DDD.Chess.Core\obj\Debug\net6.0\DDD.Chess.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\DDD.Chess\DDD.Chess.Core\obj\Debug\net6.0\DDD.Chess.Core.AssemblyInfoInputs.cache
+C:\git\DDD.Chess\DDD.Chess.Core\obj\Debug\net6.0\DDD.Chess.Core.AssemblyInfo.cs
+C:\git\DDD.Chess\DDD.Chess.Core\obj\Debug\net6.0\DDD.Chess.Core.csproj.CoreCompileInputs.cache
+C:\git\DDD.Chess\DDD.Chess.Core\obj\Debug\net6.0\DDD.Chess.Core.dll
+C:\git\DDD.Chess\DDD.Chess.Core\obj\Debug\net6.0\refint\DDD.Chess.Core.dll
+C:\git\DDD.Chess\DDD.Chess.Core\obj\Debug\net6.0\DDD.Chess.Core.pdb
+C:\git\DDD.Chess\DDD.Chess.Core\obj\Debug\net6.0\ref\DDD.Chess.Core.dll

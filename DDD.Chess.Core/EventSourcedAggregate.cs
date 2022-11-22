@@ -11,7 +11,7 @@ public abstract class EventSourcedAggregate<TId> : Entity<TId> where TId : IAggr
         return EventSourcingFactory.Build(events, this);
     }
 
-    internal abstract IDictionary<Type, IEventSourcingHandler<TId, EventSourcedAggregate<TId>, DomainEvent<TId>>> GetHandlers();
+    protected internal abstract IDictionary<Type, Func<EventSourcedAggregate<TId>, DomainEvent<TId>, EventSourcedAggregate<TId>>> GetHandlers();
 
-    internal abstract EventSourcedAggregate<TId> Initialize();
+    protected internal abstract EventSourcedAggregate<TId> Initialize();
 }

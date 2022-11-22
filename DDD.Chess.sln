@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Chess.Core", "C:\git\DD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Chess.Core.Tests", "C:\git\DDD.Chess\DDD.Chess.Core.Tests\DDD.Chess.Core.Tests.csproj", "{B737347A-E72D-435C-ABDA-DA29DB2A39AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Chess.Domain", "C:\git\DDD.Chess\DDD.Chess.Domain\DDD.Chess.Domain.csproj", "{D2FF8602-2DB2-4994-8B31-126F639EE936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Chess.Domain.Tests", "C:\git\DDD.Chess\DDD.Chess.Domain.Tests\DDD.Chess.Domain.Tests.csproj", "{C61691A9-3CC9-4CB0-8A6D-02A0E39E226B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,14 @@ Global
 		{B737347A-E72D-435C-ABDA-DA29DB2A39AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B737347A-E72D-435C-ABDA-DA29DB2A39AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B737347A-E72D-435C-ABDA-DA29DB2A39AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FF8602-2DB2-4994-8B31-126F639EE936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FF8602-2DB2-4994-8B31-126F639EE936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FF8602-2DB2-4994-8B31-126F639EE936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FF8602-2DB2-4994-8B31-126F639EE936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61691A9-3CC9-4CB0-8A6D-02A0E39E226B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61691A9-3CC9-4CB0-8A6D-02A0E39E226B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61691A9-3CC9-4CB0-8A6D-02A0E39E226B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61691A9-3CC9-4CB0-8A6D-02A0E39E226B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F340420F-939D-4BED-BD13-BA1CF585358B} = {C334C604-038C-4176-B1D0-B3367E6A599B}
 		{B737347A-E72D-435C-ABDA-DA29DB2A39AA} = {73D3D966-6CF9-4170-8736-F984858E6B33}
+		{D2FF8602-2DB2-4994-8B31-126F639EE936} = {C334C604-038C-4176-B1D0-B3367E6A599B}
+		{C61691A9-3CC9-4CB0-8A6D-02A0E39E226B} = {73D3D966-6CF9-4170-8736-F984858E6B33}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19AFA17D-DF8E-4DA7-BF21-545BFF014100}

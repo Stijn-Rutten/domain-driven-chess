@@ -8,9 +8,9 @@ internal class EventSourcingFactory
         var handlers = copyAggregate.GetHandlers();
 
         foreach (var domainEvent in events) {
-            if (handlers.TryGetValue(domainEvent.GetType(), out IEventSourcingHandler<TId, EventSourcedAggregate<TId>, DomainEvent<TId>>? handler))
+            if (handlers.TryGetValue(domainEvent.GetType(), out var apply))
             {
-                handler.Apply(copyAggregate, domainEvent);
+                copyAggregate = apply(copyAggregate, domainEvent);
             } else
             {
                 // TODO: Handle not finding the correct Handler

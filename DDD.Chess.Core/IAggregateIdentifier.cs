@@ -1,6 +1,5 @@
-﻿namespace DDD.Chess.Core
+﻿namespace DDD.Chess.Core;
+
+public interface IAggregateIdentifier
 {
-    public interface IAggregateIdentifier
-    {
-    }
 }

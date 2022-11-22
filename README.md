@@ -3,3 +3,4 @@
 ---
 
 A chess application using Domain Driven Design
+tests
